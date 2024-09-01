@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
+  font:Roboto, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: wheat;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.Container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  padding:3vmax 8vmax;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   min-height: 100vh;
+  margin-top: 0px;
+  margin-bottom:0px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #333333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+input[type="text"],
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 0;
+  background-color:black;
   color: white;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width:100%;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+
 }
+.task > div{
+  flex: 1;
+  width: 100%;
+}
+
+.task button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover{
+  background-color: #e05151;
+}
+
+.task span{
+  color: #7d7c7c
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

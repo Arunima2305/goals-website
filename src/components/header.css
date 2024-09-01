@@ -1,0 +1,28 @@
+nav{
+    background-color :#157576 ;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+.header{
+    background-color: #157576;
+    color: white;
+    padding: 5px;
+    display: flex;
+    
+        
+    justify-content: center; /* Centers the content horizontally */
+        
+    padding: 10px 20px;
+
+    align-items: center;
+
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
